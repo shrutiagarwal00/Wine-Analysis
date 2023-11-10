@@ -1,3 +1,8 @@
-# Wine-Analysis
+# Data Analytics Capstone: Wine-Recommendation-System
 Academic Project for Data Analytics Course
 Basic EDA, ML modeling, Sentiment Analysis, Recommendation System
+
+# Introduction:
+Red wine has been part of social, religious, and cultural events for centuries. In the past, people have theorized that red wine benefits health, particularly alongside a balanced diet. A 2018 study notes that drinking red wine in moderation has positive links to cardiovascular disease, atherosclerosis, hypertension, certain types of cancer, and type 2 diabetes. These links to human health were the primary motivation in looking at a wine dataset as initially the goal of the group for this project was to look at something that could affect health, though the dataset chosen has all types of wine not just red wine and ultimately, the quality of wine has not been linked to more health benefits. However, the objective of this analysis is to gain a better understanding of the quality score of wine and to produce a mechanism that will better predict the quality of a bottle of wine based on a review description, price, and geographic information. In gauging the dataset, it will be easier to identify wines with higher quality and generate a recommendation system.
+
+For the purpose of our analysis, the quality of wine is explored using machine learning and text-mining techniques. The specific dataset used for this analysis was the “winemag-data-130k-v2” dataset from Kaggle that has the rating of wine on a scale of 1 to 100, however, most of the ratings are between 80 and 100. It contains text descriptions of each wine, from different individuals on Twitter. The combination of both textual and numerical data enabled the group to perform text mining, including Vader sentiment analysis and topic analysis, and machine learning using regression, classification and KNN algorithm to get more insights into the dataset as a whole.
